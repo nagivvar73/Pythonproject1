@@ -14,3 +14,17 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+file_html = open("demo.html", "w")
+# Adding the input data to the HTML file
+file_html.write('''<html>
+<head>
+<title>HTML File</title>
+</head> 
+<body>
+<h1>Welcome Finxters</h1>           
+<p>Example demonstrating How to generate HTML Files in Python</p> 
+</body>
+</html>''')
+# Saving the data into the HTML file
+file_html.close()
