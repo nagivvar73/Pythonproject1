@@ -7,6 +7,7 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print('HELOW')
 
 
 # Press the green button in the gutter to run the script.
@@ -15,11 +16,13 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-file_html = open("demo.html", "w")
+file_html = open("C:\\Users\\mahid\\PycharmProjects\\Pythonproject1\\Results\\demo1.html", "w")
+
+
 # Adding the input data to the HTML file
 file_html.write('''<html>
 <head>
-<title>HTML File</title>
+<title>HTML File1</title>
 </head> 
 <body>
 <h1>Welcome Finxters</h1>           
